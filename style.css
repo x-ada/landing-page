@@ -1,0 +1,147 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Verdana', 'Arial';
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#section-1,
+#footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+/* Section 1 */
+#section-1 {
+    padding: 0 10% 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+#hero-text {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: left;
+    flex: 2;
+    justify-content: center;
+}
+
+#hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+#hero-text p {
+    padding: 5% 0;
+}
+
+#hero-img {
+    display: flex;
+    flex: 1;
+}
+
+#hero-img img {
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+button {
+    width: 150px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #84c7f2;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* Section 2 */
+#section-2 {
+    padding: 2% 10%;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.character-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.character img {
+    border: 6px solid #84c7f2;
+    border-radius: 20px;
+}
+
+/* Section 3 */
+#section-3 {
+    background-color: #e5e7eb;
+    padding: 5% 10%;
+    font-size: 36px;
+}
+
+
+/* Section 4 */
+
+#section-4 {
+    background-color: #84c7f2;
+    padding: 50px;
+    margin: 5%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 24px;
+    flex-wrap: wrap;
+}
+
+.section-4-left {
+    text-align: left;
+    color: white;
+}
+
+#section-4 button {
+    border: 3px solid white;
+}
+
+h3 {
+    font-size: 36px;
+}
